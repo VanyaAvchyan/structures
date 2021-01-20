@@ -1,0 +1,8 @@
+const path = require('path');
+
+module.exports = {
+  'config': path.resolve('config', 'sequilize_config.js'),
+  'models-path': path.resolve('db/mysql', 'models'),
+  'seeders-path': path.resolve('db/mysql', 'seeders'),
+  'migrations-path': path.resolve('db/mysql', 'migrations')
+}
